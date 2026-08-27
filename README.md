@@ -1,5 +1,5 @@
 # Welcome to my personal 'wiki'. 
-#### Learning how the innovation transforming the global financial ecosystem.
+#### Learning how the latest innovation transforming the global financial ecosystem.
 # Basics of DLT (Distributed Ledger Technology)
 #### Different DLT Architectures: Blockchain, Directed Acyclic Graph (DAG), Hashgraph & Holochain
 #### Key Benefits of DLT: Distributed/ Shared Ledger, Immutability, Transparency, Speed, Programmability (Smart contract and Atomicity).
