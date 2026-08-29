@@ -1,0 +1,7 @@
+The Architectural Models:
+Central banks use two primary frameworks to handle tokenized reserve settlements.
+[1] The Unified / Single Ledger Model: Commercial bank digital money (tokenized deposits) and central bank digital money (tokenized reserves) sit on the exact same ledger platform. 
+This configuration is favored in projects like the Regulated Liability Network (RLN) and BIS Project Agorá. 
+It allows for flawless synchronization because everything changes ownership in a single ledger update.
+[2] The Interoperable / Multi-Ledger Model: Tokenized deposits move on a private commercial banking network (e.g., Canton Network), while tokenized reserves remain on a dedicated, highly secure central bank ledger. 
+The two chains communicate via interoperability protocols (like Hash Time-Lock Contracts) to ensure that the commercial token cannot move unless the central bank reserve token moves concurrently.
