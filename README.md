@@ -12,6 +12,8 @@
 #### Classification by Purpose and Utility: Utility Tokens, Security Tokens, Payment (Currency) Tokens and Governance Tokens.
 # Asset Tokenization
 # Tokenized Deposit
+# Tokenized Reserves
+# Settlement Architectural Model in Tokenized Deposits and Tokenized Reserves
 # Programmable Platform and Smart Contract
 # Atomicity
 # Stablecoins: Cryptocurrencies pegged to stable assets like the US Dollar to eliminate price volatility.
