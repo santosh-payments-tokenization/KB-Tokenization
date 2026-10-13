@@ -20,7 +20,7 @@ Blockchain groups transactions into blocks that are cryptographically linked tog
 Each new block normally contains a reference to the previous block, helping protect the integrity of historical records.  
 Bitcoin and Ethereum are well-known examples of blockchain-based networks.  
 Blockchain can be public, private or permissioned depending on the use case.
-Most useful domains: Banking and payments, capital markets, asset tokenization, digital assets, trade finance, supply chain, identity and healthcare records.
+# Most useful domains: Banking and payments, capital markets, asset tokenization, digital assets, trade finance, supply chain, identity and healthcare records.
 
 ### 2.1.B Directed Acyclic Graph — DAG
 
@@ -28,7 +28,7 @@ DAG allows transactions to reference or validate other transactions without grou
 Transactions can be processed in parallel rather than waiting for a single sequence of blocks.  
 This can potentially improve scalability and transaction throughput.  
 Different DAG-based networks use different approaches to consensus and validation.
-Most useful domains: Internet of Things (IoT), machine-to-machine payments, micropayments, logistics, high-volume transaction networks and real-time data exchange.
+# Most useful domains: Internet of Things (IoT), machine-to-machine payments, micropayments, logistics, high-volume transaction networks and real-time data exchange.
 
 ### 2.1.C Hashgraph
 
@@ -36,7 +36,7 @@ Hashgraph uses a different distributed-consensus model rather than a conventiona
 Participants share information about transactions and the history of communication between nodes.  
 The model aims to achieve fast consensus and high transaction throughput.  
 Hedera is one well-known implementation associated with Hashgraph technology.
-Most useful domains: Enterprise payments, financial services, supply chain, tokenized assets, sustainability/ESG tracking, identity and high-throughput business applications.
+#Most useful domains: Enterprise payments, financial services, supply chain, tokenized assets, sustainability/ESG tracking, identity and high-throughput business applications.
 
 ### 2.1.D Holochain
 
@@ -44,7 +44,7 @@ Holochain follows an agent-centric architecture rather than maintaining one iden
 Each participant maintains their own chain of activity and shares relevant information with other participants.  
 Validation rules determine whether information can be accepted by the wider network.  
 It is structurally different from traditional blockchain systems.
-Most useful domains: Peer-to-peer applications, decentralised social networks, digital identity, community platforms, collaborative data sharing and user-controlled data ecosystems.
+# Most useful domains: Peer-to-peer applications, decentralised social networks, digital identity, community platforms, collaborative data sharing and user-controlled data ecosystems.
 
 ## 2.2 Key Benefits of DLT
 
