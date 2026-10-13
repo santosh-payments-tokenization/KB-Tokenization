@@ -1,3 +1,113 @@
+# Table of Contents
+
+- [1. Welcome to My Personal Wiki](#1-welcome-to-my-personal-wiki)
+
+- [2. Basics of DLT — Distributed Ledger Technology](#2-basics-of-dlt--distributed-ledger-technology)
+  - [2.1 Different DLT Architectures](#21-different-dlt-architectures)
+    - [2.1.A Blockchain](#21a-blockchain)
+    - [2.1.B Directed Acyclic Graph — DAG](#21b-directed-acyclic-graph--dag)
+    - [2.1.C Hashgraph](#21c-hashgraph)
+    - [2.1.D Holochain](#21d-holochain)
+
+  - [2.2 Key Benefits of DLT](#22-key-benefits-of-dlt)
+    - [2.2.A Distributed / Shared Ledger](#22a-distributed--shared-ledger)
+    - [2.2.B Immutability](#22b-immutability)
+    - [2.2.C Transparency](#22c-transparency)
+    - [2.2.D Speed](#22d-speed)
+    - [2.2.E Programmability](#22e-programmability)
+
+  - [2.3 Types of DLT Networks](#23-types-of-dlt-networks)
+    - [2.3.A Permissionless Networks](#23a-permissionless-networks)
+    - [2.3.B Permissioned Networks](#23b-permissioned-networks)
+
+- [3. Basics of Assets](#3-basics-of-assets)
+  - [3.1 Asset Classes](#31-asset-classes)
+    - [3.1.A Equities](#31a-equities)
+    - [3.1.B Fixed Income](#31b-fixed-income)
+    - [3.1.C Cash and Cash Equivalents](#31c-cash-and-cash-equivalents)
+    - [3.1.D Commodities](#31d-commodities)
+    - [3.1.E Real Estate](#31e-real-estate)
+    - [3.1.F Investment Funds](#31f-investment-funds)
+    - [3.1.G Alternative Assets](#31g-alternative-assets)
+
+- [4. Basics of Tokens](#4-basics-of-tokens)
+
+- [5. Types of Tokens](#5-types-of-tokens)
+  - [5.1 Classification by Technological Structure](#51-classification-by-technological-structure)
+    - [5.1.A Fungible Tokens](#51a-fungible-tokens)
+    - [5.1.B Non-Fungible Tokens — NFTs](#51b-non-fungible-tokens--nfts)
+    - [5.1.C Semi-Fungible Tokens](#51c-semi-fungible-tokens)
+    - [5.1.D Soulbound Tokens](#51d-soulbound-tokens)
+
+  - [5.2 Classification by Purpose and Utility](#52-classification-by-purpose-and-utility)
+    - [5.2.A Utility Tokens](#52a-utility-tokens)
+    - [5.2.B Security Tokens](#52b-security-tokens)
+    - [5.2.C Payment / Currency Tokens](#52c-payment--currency-tokens)
+    - [5.2.D Governance Tokens](#52d-governance-tokens)
+
+- [6. Asset Tokenization](#6-asset-tokenization)
+  - [6.1 Typical Asset-Tokenization Lifecycle](#61-typical-asset-tokenization-lifecycle)
+    - [6.1.A Asset Identification](#61a-asset-identification)
+    - [6.1.B Legal Structuring](#61b-legal-structuring)
+    - [6.1.C Custody](#61c-custody)
+    - [6.1.D Token Creation](#61d-token-creation)
+    - [6.1.E Issuance](#61e-issuance)
+    - [6.1.F Transfer](#61f-transfer)
+    - [6.1.G Servicing](#61g-servicing)
+    - [6.1.H Redemption](#61h-redemption)
+
+- [7. Tokenized Deposits](#7-tokenized-deposits)
+  - [7.1 Key Characteristics](#71-key-characteristics)
+    - [7.1.A Issuer](#71a-issuer)
+    - [7.1.B Liability](#71b-liability)
+    - [7.1.C Value](#71c-value)
+    - [7.1.D Use Cases](#71d-use-cases)
+
+- [8. Tokenized Reserves](#8-tokenized-reserves)
+  - [8.1 Key Characteristics](#81-key-characteristics)
+    - [8.1.A Issuer](#81a-issuer)
+    - [8.1.B Holders](#81b-holders)
+    - [8.1.C Purpose](#81c-purpose)
+    - [8.1.D Key Benefit](#81d-key-benefit)
+
+- [9. Settlement Architectural Model Using Tokenized Deposits and Tokenized Reserves](#9-settlement-architectural-model-using-tokenized-deposits-and-tokenized-reserves)
+  - [9.1 Simplified Settlement Flow](#91-simplified-settlement-flow)
+    - [9.1.A Customer Initiation](#91a-customer-initiation)
+    - [9.1.B Tokenized Deposit Transfer](#91b-tokenized-deposit-transfer)
+    - [9.1.C Interbank Settlement](#91c-interbank-settlement)
+    - [9.1.D Beneficiary Credit](#91d-beneficiary-credit)
+    - [9.1.E Final Position](#91e-final-position)
+
+- [10. Programmable Platforms and Smart Contracts](#10-programmable-platforms-and-smart-contracts)
+  - [10.1 Examples of Smart-Contract Rules](#101-examples-of-smart-contract-rules)
+    - [10.1.A Balance Validation](#101a-balance-validation)
+    - [10.1.B Investor Eligibility](#101b-investor-eligibility)
+    - [10.1.C Asset Locking](#101c-asset-locking)
+    - [10.1.D Payment Release](#101d-payment-release)
+    - [10.1.E Redemption](#101e-redemption)
+
+- [11. Atomicity](#11-atomicity)
+  - [11.1 Common Atomic Settlement Models](#111-common-atomic-settlement-models)
+    - [11.1.A Delivery versus Payment — DvP](#111a-delivery-versus-payment--dvp)
+    - [11.1.B Payment versus Payment — PvP](#111b-payment-versus-payment--pvp)
+
+- [12. Stablecoins](#12-stablecoins)
+  - [12.1 Main Types of Stablecoins](#121-main-types-of-stablecoins)
+    - [12.1.A Fiat-Backed Stablecoins](#121a-fiat-backed-stablecoins)
+    - [12.1.B Crypto-Collateralised Stablecoins](#121b-crypto-collateralised-stablecoins)
+    - [12.1.C Algorithmic Stablecoins](#121c-algorithmic-stablecoins)
+    - [12.1.D Regulated Bank / E-Money Stablecoins](#121d-regulated-bank--e-money-stablecoins)
+
+- [13. Regulation of Stablecoins](#13-regulation-of-stablecoins)
+  - [13.1 Main Regulatory Areas](#131-main-regulatory-areas)
+    - [13.1.A Issuer Authorisation](#131a-issuer-authorisation)
+    - [13.1.B Reserve Requirements](#131b-reserve-requirements)
+    - [13.1.C Safeguarding](#131c-safeguarding)
+    - [13.1.D Redemption Rights](#131d-redemption-rights)
+    - [13.1.E AML / KYC](#131e-aml--kyc)
+    - [13.1.F Operational Resilience](#131f-operational-resilience)
+    - [13.1.G Disclosure and Transparency](#131g-disclosure-and-transparency)
+      
 # 1. Welcome to My Personal Wiki
 
 This knowledge hub documents my learning journey across payments, DLT, blockchain, digital assets and tokenization.  
